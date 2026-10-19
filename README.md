@@ -7,7 +7,7 @@
 
 **Licence :** MIT (voir [LICENSE](LICENSE)). Inspiré de [hrtowii/dual-wield](https://github.com/hrtowii/dual-wield). Ce dépôt n'a pas de licence, donc aucun de son code n'est repris : tout est réécrit.
 
-**Builds :** voir les [Releases](https://github.com/NOxygen59/dual-wield-pad/releases) (`.deb` rootless). Non testé sur l'iPad.
+**Installer :** ajouter la source Sileo `https://noxygen59.github.io/sileo-repo/` ([ouvrir dans Sileo](sileo://source/https://noxygen59.github.io/sileo-repo/)), ou prendre le `.deb` rootless dans les [Releases](https://github.com/NOxygen59/dual-wield-pad/releases). Non testé sur l'iPad.
 
 ---
 
