@@ -1,0 +1,9 @@
+Package: com.dualwieldpad
+Name: Dual Wield Pad
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Keeps the picture upright as you close an iPad on its Magic Keyboard: the whole screen is warped in perspective from the hinge angle (read from the accelerometer), so from your seat it stays where it was. An iPad take on hrtowii's dual-wield for MacBooks.
+Maintainer: noxygen
+Author: noxygen
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0)

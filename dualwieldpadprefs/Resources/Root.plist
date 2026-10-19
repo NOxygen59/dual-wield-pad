@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>En refermant l'iPad sur son Magic Keyboard, l'image reste droite face à vous : tout l'écran est déformé en perspective d'après l'angle de la charnière (lu par l'accéléromètre, clavier posé à plat). Idée originale : dual-wield de hrtowii, pour MacBook.</string>
+			<key>label</key>
+			<string>Dual Wield Pad</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.dualwieldpad/reload</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.dualwieldpad.prefs</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Activer</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.dualwieldpad/reload</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.dualwieldpad.prefs</string>
+			<key>key</key>
+			<string>needsKeyboard</string>
+			<key>label</key>
+			<string>Seulement avec un clavier connecté</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>L'effet commence quand l'écran descend sous cet angle (90° = droit). Ouvrez l'écran à votre position habituelle puis touchez « Utiliser l'angle actuel ».</string>
+			<key>label</key>
+			<string>Angle de référence</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.dualwieldpad/reload</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>105.0</real>
+			<key>defaults</key>
+			<string>com.dualwieldpad.prefs</string>
+			<key>key</key>
+			<string>threshold</string>
+			<key>max</key>
+			<real>160.0</real>
+			<key>min</key>
+			<real>60.0</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>useCurrentAngle</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Utiliser l'angle actuel</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Distance de vos yeux à l'écran et hauteur de vos yeux au-dessus de la charnière, en hauteurs d'écran (2,4 ≈ 50 cm pour un iPad 12,9" en paysage).</string>
+			<key>label</key>
+			<string>Point de vue</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>Distance</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.dualwieldpad/reload</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>2.4</real>
+			<key>defaults</key>
+			<string>com.dualwieldpad.prefs</string>
+			<key>key</key>
+			<string>distance</string>
+			<key>max</key>
+			<real>6.0</real>
+			<key>min</key>
+			<real>0.8</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>Hauteur des yeux</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.dualwieldpad/reload</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>0.6</real>
+			<key>defaults</key>
+			<string>com.dualwieldpad.prefs</string>
+			<key>key</key>
+			<string>eyeHeight</string>
+			<key>max</key>
+			<real>1.5</real>
+			<key>min</key>
+			<real>0.0</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Flou maximal (en points) atteint quand l'écran est presque fermé ; 0 pour aucun.</string>
+			<key>label</key>
+			<string>Flou</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.dualwieldpad/reload</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>8.0</real>
+			<key>defaults</key>
+			<string>com.dualwieldpad.prefs</string>
+			<key>key</key>
+			<string>blur</string>
+			<key>max</key>
+			<real>40.0</real>
+			<key>min</key>
+			<real>0.0</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Dual Wield Pad</string>
+</dict>
+</plist>
